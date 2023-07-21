@@ -1,0 +1,56 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: -4px -12px 46px 3px lightgrey;
+    -webkit-box-shadow: -4px -12px 46px 3px lightgrey;
+    -moz-box-shadow: -4px -12px 46px 3px lightgrey;
+}
+
+.input {
+    width: 90%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.icons{
+    margin-right: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30%;
+    height: 80%;
+}
+
+.icon{
+    padding: 10px;
+    margin: 3px;
+    color: gray;
+}
+
+.icon:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition-delay: 1s;
+    transition-duration: 1s;
+}
+
+.send {
+    background-color: #027afc;
+    border-radius: 100%;
+    color: white;
+}
+
+.emoji {
+    width: 70%
+}
+
+.button{
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
